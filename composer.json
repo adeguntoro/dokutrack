@@ -6,13 +6,19 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "barryvdh/laravel-snappy": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
+        "maatwebsite/excel": "^3.1",
+        "spatie/laravel-permission": "^5.11",
         "unisharp/laravel-filemanager": "^2.6",
-        "van-ons/laraberg": "1.1.0"
+        "van-ons/laraberg": "1.1.0",
+        "yajra/laravel-datatables": "^10.1",
+        "yajra/laravel-datatables-buttons": "^10.0",
+        "yajra/laravel-datatables-editor": "^1.25"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

@@ -37,7 +37,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@popperjs/core", "npm:2.11.8"],\
             ["axios", "npm:1.4.0"],\
             ["bootstrap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.3.0"],\
+            ["bootstrap-icons", "npm:1.11.1"],\
             ["buffer", "npm:6.0.3"],\
+            ["datatables.net", "npm:1.13.6"],\
+            ["laravel-datatables-vite", "npm:0.5.2"],\
             ["laravel-mix", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:6.0.49"],\
             ["postcss", "npm:8.3.1"],\
             ["react", "npm:18.2.0"],\
@@ -3977,6 +3980,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["npm:5.3.2", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/bootstrap-npm-5.3.2-20b391b636-8.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "npm:5.3.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:842e4a52db02c0d89873be0bff19787c9b73369f70db376e20e4b77e1a631d2e02c0a98bc82b3dba10d6b184bb238fd941614506725c0d5fab310679f6a0224d#npm:5.3.2", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-79ada30d1b/8/D:/Windows/cache/yarn-global/cache/bootstrap-npm-5.3.2-20b391b636-8.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "virtual:842e4a52db02c0d89873be0bff19787c9b73369f70db376e20e4b77e1a631d2e02c0a98bc82b3dba10d6b184bb238fd941614506725c0d5fab310679f6a0224d#npm:5.3.2"],\
+            ["@popperjs/core", null],\
+            ["@types/popperjs__core", null]\
+          ],\
+          "packagePeers": [\
+            "@popperjs/core",\
+            "@types/popperjs__core"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.3.0", {\
           "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-3c63ba6f80/8/D:/Windows/cache/yarn-global/cache/bootstrap-npm-5.3.0-240c38a3b2-8.zip/node_modules/bootstrap/",\
           "packageDependencies": [\
@@ -3987,6 +4010,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@popperjs/core",\
             "@types/popperjs__core"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["bootstrap-icons", [\
+        ["npm:1.11.1", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/bootstrap-icons-npm-1.11.1-9f55aea76a-8.zip/node_modules/bootstrap-icons/",\
+          "packageDependencies": [\
+            ["bootstrap-icons", "npm:1.11.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4974,6 +5006,73 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["csso", "npm:4.2.0"],\
             ["css-tree", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["datatables.net", [\
+        ["npm:1.13.6", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/datatables.net-npm-1.13.6-2c767ad04e-8.zip/node_modules/datatables.net/",\
+          "packageDependencies": [\
+            ["datatables.net", "npm:1.13.6"],\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["datatables.net-bs5", [\
+        ["npm:1.13.6", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/datatables.net-bs5-npm-1.13.6-534f62b182-8.zip/node_modules/datatables.net-bs5/",\
+          "packageDependencies": [\
+            ["datatables.net-bs5", "npm:1.13.6"],\
+            ["datatables.net", "npm:1.13.6"],\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["datatables.net-buttons", [\
+        ["npm:2.4.2", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/datatables.net-buttons-npm-2.4.2-c3d4646792-8.zip/node_modules/datatables.net-buttons/",\
+          "packageDependencies": [\
+            ["datatables.net-buttons", "npm:2.4.2"],\
+            ["datatables.net", "npm:1.13.6"],\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["datatables.net-buttons-bs5", [\
+        ["npm:2.4.2", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/datatables.net-buttons-bs5-npm-2.4.2-570253dde0-8.zip/node_modules/datatables.net-buttons-bs5/",\
+          "packageDependencies": [\
+            ["datatables.net-buttons-bs5", "npm:2.4.2"],\
+            ["datatables.net-bs5", "npm:1.13.6"],\
+            ["datatables.net-buttons", "npm:2.4.2"],\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["datatables.net-select", [\
+        ["npm:1.7.0", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/datatables.net-select-npm-1.7.0-9dc449542f-8.zip/node_modules/datatables.net-select/",\
+          "packageDependencies": [\
+            ["datatables.net-select", "npm:1.7.0"],\
+            ["datatables.net", "npm:1.13.6"],\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["datatables.net-select-bs5", [\
+        ["npm:1.7.0", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/datatables.net-select-bs5-npm-1.7.0-ac096c7ae9-8.zip/node_modules/datatables.net-select-bs5/",\
+          "packageDependencies": [\
+            ["datatables.net-select-bs5", "npm:1.7.0"],\
+            ["datatables.net-bs5", "npm:1.13.6"],\
+            ["datatables.net-select", "npm:1.7.0"],\
+            ["jquery", "npm:3.7.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6722,6 +6821,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["jquery", [\
+        ["npm:3.7.1", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/jquery-npm-3.7.1-eeeac0f21e-8.zip/node_modules/jquery/",\
+          "packageDependencies": [\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["js-tokens", [\
         ["npm:4.0.0", {\
           "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/js-tokens-npm-4.0.0-0ac852e9e2-8.zip/node_modules/js-tokens/",\
@@ -6823,6 +6931,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/klona-npm-2.0.6-bc83268fb1-8.zip/node_modules/klona/",\
           "packageDependencies": [\
             ["klona", "npm:2.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["laravel-datatables-vite", [\
+        ["npm:0.5.2", {\
+          "packageLocation": "../../../../../../../D:/Windows/cache/yarn-global/cache/laravel-datatables-vite-npm-0.5.2-842e4a52db-8.zip/node_modules/laravel-datatables-vite/",\
+          "packageDependencies": [\
+            ["laravel-datatables-vite", "npm:0.5.2"],\
+            ["bootstrap", "virtual:842e4a52db02c0d89873be0bff19787c9b73369f70db376e20e4b77e1a631d2e02c0a98bc82b3dba10d6b184bb238fd941614506725c0d5fab310679f6a0224d#npm:5.3.2"],\
+            ["bootstrap-icons", "npm:1.11.1"],\
+            ["datatables.net", "npm:1.13.6"],\
+            ["datatables.net-bs5", "npm:1.13.6"],\
+            ["datatables.net-buttons-bs5", "npm:2.4.2"],\
+            ["datatables.net-select-bs5", "npm:1.7.0"],\
+            ["jquery", "npm:3.7.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9303,7 +9427,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@popperjs/core", "npm:2.11.8"],\
             ["axios", "npm:1.4.0"],\
             ["bootstrap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.3.0"],\
+            ["bootstrap-icons", "npm:1.11.1"],\
             ["buffer", "npm:6.0.3"],\
+            ["datatables.net", "npm:1.13.6"],\
+            ["laravel-datatables-vite", "npm:0.5.2"],\
             ["laravel-mix", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:6.0.49"],\
             ["postcss", "npm:8.3.1"],\
             ["react", "npm:18.2.0"],\

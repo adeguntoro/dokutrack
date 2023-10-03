@@ -2574,6 +2574,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap-icons@npm:^1.11.1, bootstrap-icons@npm:^1.9.1":
+  version: 1.11.1
+  resolution: "bootstrap-icons@npm:1.11.1"
+  checksum: d78ff24a832fc47db0c7ba5d92d150caee6d8e9ccef24c6de5c2d9728b9610884c8ade3ecadcf09fffae207786acdf40bb026ea5b79a774a1ada62026d9fe16b
+  languageName: node
+  linkType: hard
+
+"bootstrap@npm:^5.2.2":
+  version: 5.3.2
+  resolution: "bootstrap@npm:5.3.2"
+  peerDependencies:
+    "@popperjs/core": ^2.11.8
+  checksum: d5580b253d121ffc137388d41da58dce8d15f1ccd574e12f28d4a08e7649ca15e95db645b2b677cb8025bccd446bff04138fc0fe64f8cba0ccc5dc004a8644cf
+  languageName: node
+  linkType: hard
+
 "bootstrap@npm:^5.2.3":
   version: 5.3.0
   resolution: "bootstrap@npm:5.3.0"
@@ -3423,6 +3439,67 @@ __metadata:
   dependencies:
     css-tree: ^1.1.2
   checksum: 380ba9663da3bcea58dee358a0d8c4468bb6539be3c439dc266ac41c047217f52fd698fb7e4b6b6ccdfb8cf53ef4ceed8cc8ceccb8dfca2aa628319826b5b998
+  languageName: node
+  linkType: hard
+
+"datatables.net-bs5@npm:>=1.13.4, datatables.net-bs5@npm:^1.12.1":
+  version: 1.13.6
+  resolution: "datatables.net-bs5@npm:1.13.6"
+  dependencies:
+    datatables.net: ">=1.13.4"
+    jquery: ">=1.7"
+  checksum: d13c5b45e7b6016d694e77b04b42528859ff0cfc14fd721fb83256bbc812b769f3f1af0fcc6ce457faeedd608203ceb3ecba7ab7e1a4744929310025b3817935
+  languageName: node
+  linkType: hard
+
+"datatables.net-buttons-bs5@npm:^2.2.3":
+  version: 2.4.2
+  resolution: "datatables.net-buttons-bs5@npm:2.4.2"
+  dependencies:
+    datatables.net-bs5: ">=1.13.4"
+    datatables.net-buttons: ">=2.3.6"
+    jquery: ">=1.7"
+  checksum: 8f5d9d423afc8fd22ce051c3ec94b503140046ff3b88afa810363493fcbd6a8bc8571e717ead4c8420c532f882f70273a57fb03c2a8fafe049bec87a27c9373f
+  languageName: node
+  linkType: hard
+
+"datatables.net-buttons@npm:>=2.3.6":
+  version: 2.4.2
+  resolution: "datatables.net-buttons@npm:2.4.2"
+  dependencies:
+    datatables.net: ">=1.13.4"
+    jquery: ">=1.7"
+  checksum: 16556fb583a3069cdef700ebe97abce6ddb54a48bfba0c54eb91cba2c63e033146c83929998c0a313d93722d0f2f66343669afd154ef65e74cf44bfdedb4d9cc
+  languageName: node
+  linkType: hard
+
+"datatables.net-select-bs5@npm:^1.4.0":
+  version: 1.7.0
+  resolution: "datatables.net-select-bs5@npm:1.7.0"
+  dependencies:
+    datatables.net-bs5: ">=1.13.4"
+    datatables.net-select: ">=1.6.2"
+    jquery: ">=1.7"
+  checksum: 3d18b1a9508c59f5fa3837a2245f1f8fd42726c0175230481d6838b6ffe428ff9282119137e5a8959f3518ad947043a3983f600afce2691c619e712ee1a1f468
+  languageName: node
+  linkType: hard
+
+"datatables.net-select@npm:>=1.6.2":
+  version: 1.7.0
+  resolution: "datatables.net-select@npm:1.7.0"
+  dependencies:
+    datatables.net: ">=1.13.4"
+    jquery: ">=1.7"
+  checksum: 6fa93cd2ec18358a86d1d77e01bda1cf30b2bc6460e578a9c18845ba49fc7ad2336192f60747d8464078727c0252452821eb367e7f0c865b49f5f2c3253cf785
+  languageName: node
+  linkType: hard
+
+"datatables.net@npm:>=1.13.4, datatables.net@npm:^1.12.1, datatables.net@npm:^1.13.6":
+  version: 1.13.6
+  resolution: "datatables.net@npm:1.13.6"
+  dependencies:
+    jquery: ">=1.7"
+  checksum: 2c9e4063bd6b2cfeac92e577a34d3a35803fdd5aeb47ca11230584684e20d328f1b0977a12cbe06412d7c8ee451635fba20ad6a6f44c0da07eaba32c909fe0d1
   languageName: node
   linkType: hard
 
@@ -4893,6 +4970,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jquery@npm:>=1.7, jquery@npm:^3.6.1":
+  version: 3.7.1
+  resolution: "jquery@npm:3.7.1"
+  checksum: 4370b8139d6ae82867eb6f7f21d1edccf1d1bdf41c0840920ea80d366c2cd5dbe1ceebb110ee9772aa839b04400faa1572c5c560b507c688ed7b61cea26c0e27
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -4990,6 +5074,21 @@ __metadata:
   version: 2.0.6
   resolution: "klona@npm:2.0.6"
   checksum: ac9ee3732e42b96feb67faae4d27cf49494e8a3bf3fa7115ce242fe04786788e0aff4741a07a45a2462e2079aa983d73d38519c85d65b70ef11447bbc3c58ce7
+  languageName: node
+  linkType: hard
+
+"laravel-datatables-vite@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "laravel-datatables-vite@npm:0.5.2"
+  dependencies:
+    bootstrap: ^5.2.2
+    bootstrap-icons: ^1.9.1
+    datatables.net: ^1.12.1
+    datatables.net-bs5: ^1.12.1
+    datatables.net-buttons-bs5: ^2.2.3
+    datatables.net-select-bs5: ^1.4.0
+    jquery: ^3.6.1
+  checksum: f1c7280439541529f42e092de39f1f4c2a9a2bf77cd119a9a37c88b364ff01cccc98b05743ca85724eb8e7887c5e6dbd88415dafeb09f8405001b55ef20ab343
   languageName: node
   linkType: hard
 
@@ -6871,7 +6970,10 @@ __metadata:
     "@popperjs/core": ^2.11.6
     axios: ^1.1.2
     bootstrap: ^5.2.3
+    bootstrap-icons: ^1.11.1
     buffer: ^6.0.3
+    datatables.net: ^1.13.6
+    laravel-datatables-vite: ^0.5.2
     laravel-mix: ^6.0.49
     postcss: 8.3.1
     react: ^18.2.0
