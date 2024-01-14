@@ -4,15 +4,21 @@ namespace App\Http\Controllers;
 
 use App\Models\Dokumen;
 use Illuminate\Http\Request;
+use App\DataTables\DokumenDataTable;
+//use App\DataTables\VendorDataTable;
 
 class DokumenController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    //public function index()
+    //public function index(Request $request, VendorDataTable $dataTable)
+    public function index(Request $request, DokumenDataTable $dataTable)
     {
         //
+        return $dataTable->render('dokumen.input');
+        //return $dataTable->render('kontraktor.index');
     }
 
     /**

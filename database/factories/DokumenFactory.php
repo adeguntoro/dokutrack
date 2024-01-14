@@ -3,6 +3,8 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Arr;
+use App\Models\Dokumen;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Dokumen>
@@ -18,6 +20,18 @@ class DokumenFactory extends Factory
     {
         return [
             //
+            'jenisdokumen' => fake()->name(),
+            'estate' => fake()->city(),
+            'pengirim' => fake()->name(),
+            'vendor' => fake()->name(), // password
+            'dokumentasi' => Arr::random(['ada', 'tidak ada']),
+            /*
+'jenisdokumen',
+'estate',
+'pengirim',
+'vendor',
+'dokumentasi',
+            */
         ];
     }
 }

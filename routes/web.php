@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\VendorController;
+use App\Http\Controllers\DokumenController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 // Route::resource('vendor', 'VendorController');
  
 Route::resource('/user', VendorController::class);
-Route::get('/user/data', [VendorController::class, 'index'])->name('user.datas');
+// Route::get('/user/data', [VendorController::class, 'index'])->name('user.datas');
+
+
+Route::resource('/dokumen', DokumenController::class);

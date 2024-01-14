@@ -9,8 +9,17 @@ class Dokumen extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'name',
-        'email',
-        'password',
+        'jenisdokumen',
+        'estate',
+        'pengirim',
+        'vendor',
+        'dokumentasi',
     ];
+
+    /*
+    public function track()
+    {
+        return $this->hasOne('App\Models\Phone');
+    }
+    */
 }

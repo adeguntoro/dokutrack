@@ -12,7 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('trackings', function (Blueprint $table) {
-            $table->id();
+            // $table->id();\
+            $table->foreignId('dokumen_id')->constrained()->onDelete('cascade')->nullable();
+            $table->string('aprovedby');
+            $table->string('komen');
+            $table->string('note');
+            $table->string('dokumentasi');
             $table->timestamps();
         });
     }

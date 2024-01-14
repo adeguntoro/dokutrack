@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Vendor;
 use Illuminate\Http\Request;
-// use DataTables;// \VendorDataTable;
 use App\DataTables\VendorDataTable;
 
 

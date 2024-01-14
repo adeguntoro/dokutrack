@@ -13,7 +13,19 @@ return new class extends Migration
     {
         Schema::create('dokumens', function (Blueprint $table) {
             $table->id();
+            $table->string('jenisdokumen');
+            $table->string('estate');
+            $table->string('pengirim');
+            $table->string('vendor');
+            $table->string('dokumentasi');
             $table->timestamps();
+            /*
+'jenisdokumen',
+'estate',
+'pengirim',
+'vendor',
+'dokumentasi',
+            */
         });
     }
 
